@@ -106,12 +106,16 @@ Workflow (do all steps, in order):
    citations or delegate more research so the final report still draws on >= 3 families.
 7. Run the validator with `execute` (`python3 {VALIDATOR_PATH}`) and fix problems until it prints OK.
    Never finish with validator errors. The validator also flags every model name, acronym-with-digits or number
-   in the body that appears in NO researcher note ("in no researcher note"): delete that claim or rewrite it with
-   facts the notes state; never add the name to the notes yourself.
+   in the body that is not in the notes block of the very source the sentence cites ("not in the notes of the
+   sources it cites"): delete that claim, or rewrite it with facts that block states, or cite the source whose
+   block states it; never add the name to the notes yourself. Write each sentence from ONE source's block.
 8. Ask the `citation-checker` subagent to spot-check 3-5 claims: give it exact quoted claims with their
    [n] and source URLs; it fetches each URL and answers SUPPORTED / PARTIAL / UNSUPPORTED / UNVERIFIABLE
    with one sentence of evidence. Fix or remove claims that are not SUPPORTED, then re-run finalizer
    and validator.
+
+Never end your turn with a text-only reply before step 8 is done: every turn until then must include a tool call
+(`write_todos`, `task`, file tools or `execute`). Planning happens inside `write_todos`, not in prose.
 
 Rules: source tools run on the host via subagents; you work with files and `execute` in the sandbox.
 Never write API keys or .env into the sandbox. Stay within the report template headings so the

@@ -1,106 +1,74 @@
 [
   {
     "n": 1,
-    "id": "2402.09748v1",
-    "url": "https://arxiv.org/abs/2402.09748",
-    "title": "Model Compression and Efficient Inference for Large Language Models",
-    "date": "2024-02-15",
+    "id": "2608.04488",
+    "url": "https://arxiv.org/abs/2608.04488",
+    "title": "Energy- and Memory-Efficient PEFT Methods for Personalized On-Device SLMs on Consumer GPUs",
+    "date": "2026-08-05",
     "source": "arxiv"
   },
   {
     "n": 2,
-    "id": "hal-04997150v1",
-    "url": "https://hal.science/hal-04997150v1/file/Exploring_Model_Compression_Techniques_for_Efficient_Inference_of_Large_Language_Models.pdf",
-    "title": "Exploring Model Compression Techniques for Efficient Inference of Large Language Models (HAL)",
-    "date": "n.d.",
-    "source": "web"
+    "id": "2607.27506",
+    "url": "https://arxiv.org/abs/2607.27506",
+    "title": "Models for minimalist RAG: B1ade 335M Embedding and 1B Parameter Small Language Models",
+    "date": "2026-07-29",
+    "source": "arxiv"
   },
   {
     "n": 3,
-    "id": "2501.04519",
-    "url": "https://huggingface.co/papers/2501.04519",
-    "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking",
-    "date": "2025-01-08",
+    "id": "2402.09748",
+    "url": "https://huggingface.co/papers/2402.09748",
+    "title": "Model Compression and Efficient Inference for Large Language Models: A Survey",
+    "date": "2024-02-15",
     "source": "hf-search"
   },
   {
     "n": 4,
-    "id": "2504.03947",
-    "url": "https://huggingface.co/papers/2504.03947",
-    "title": "Distillation and Refinement of Reasoning in Small Language Models for Document Re-ranking",
-    "date": "2025-04-04",
+    "id": "2409.01990",
+    "url": "https://huggingface.co/papers/2409.01990",
+    "title": "Contemporary Model Compression on Large Language Models Inference",
+    "date": "2024-09-03",
     "source": "hf-search"
   },
   {
     "n": 5,
-    "id": "2402.17834",
-    "url": "https://huggingface.co/papers/2402.17834",
-    "title": "Stable LM 2 1.6B Technical Report",
-    "date": "2024-02-27",
+    "id": "2211.07715",
+    "url": "https://huggingface.co/papers/2211.07715",
+    "title": "Fast DistilBERT on CPUs",
+    "date": "2022-10-27",
     "source": "hf-search"
   },
   {
     "n": 6,
-    "id": "fn397vnh6y5",
-    "url": "https://exa.ai/library/publication/fn397vnh6y5",
-    "title": "Are We There Yet? A Measurement Study of Efficiency for LLM Applications on Mobile Devices",
-    "date": "2025-04-25",
-    "source": "web"
+    "id": "2610.00432",
+    "url": "https://arxiv.org/abs/2610.00432",
+    "title": "XOR-Trellis: Ultra-Low-Complexity Dequantization and Curvature-Aware Hadamard-Free LLM Quantization",
+    "date": "2026-09-30",
+    "source": "arxiv"
   },
   {
     "n": 7,
-    "id": "2604.24636",
-    "url": "https://arxiv.org/abs/2604.24636",
-    "title": "Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application",
-    "date": "n.d.",
+    "id": "decagon-real-time-voice-ai-modal",
+    "url": "https://decagon.ai/blog/real-time-voice-ai-on-modal",
+    "title": "How Decagon shipped real-time voice AI on Modal",
+    "date": "2025-11-05",
     "source": "web"
   },
   {
     "n": 8,
-    "id": "2603.16867",
-    "url": "https://arxiv.org/abs/2603.16867",
-    "title": "Efficient Reasoning on the Edge",
-    "date": "2026-03-17",
-    "source": "arxiv"
+    "id": "cloudflare-most-efficient-ai-inference-engine",
+    "url": "https://blog.cloudflare.com/cloudflares-most-efficient-ai-inference-engine/",
+    "title": "How we built the most efficient inference engine for Cloudflare’s network",
+    "date": "2025-08-27",
+    "source": "web"
   },
   {
     "n": 9,
-    "id": "2511.11624",
-    "url": "https://arxiv.org/abs/2511.11624",
-    "title": "Characterizing and Understanding Energy Footprint and Efficiency of Small Language Model on Edges",
-    "date": "2025-11-07",
-    "source": "arxiv"
-  },
-  {
-    "n": 10,
-    "id": "2610.08215",
-    "url": "https://huggingface.co/papers/2610.08215",
-    "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
-    "date": "2026-10-08",
-    "source": "hf-daily"
-  },
-  {
-    "n": 11,
-    "id": "2512.23747",
-    "url": "https://huggingface.co/papers/2512.23747",
-    "title": "State-of-the-art Small Language Coder Model: Mify-Coder",
-    "date": "2025-12-26",
-    "source": "hf-search"
-  },
-  {
-    "n": 12,
-    "id": "2610.08917",
-    "url": "https://huggingface.co/papers/2610.08917",
-    "title": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
-    "date": "2026-10-06",
-    "source": "hf-daily"
-  },
-  {
-    "n": 13,
-    "id": "2609.39068",
-    "url": "https://huggingface.co/papers/2609.39068",
-    "title": "SparseEngine: Sparse-First Inference Engine",
-    "date": "2026-09-30",
-    "source": "hf-daily"
+    "id": "slm-bench-arxiv",
+    "url": "https://arxiv.org/html/2508.15478v1",
+    "title": "SLM-Bench: A Comprehensive Benchmark of Small Language Models on Environmental Impacts—Extended Version",
+    "date": "n.d.",
+    "source": "web"
   }
 ]

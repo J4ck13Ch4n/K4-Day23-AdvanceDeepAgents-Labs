@@ -1,70 +1,126 @@
 [
   {
     "n": 1,
-    "id": "2608.20379",
-    "url": "https://arxiv.org/abs/2608.20379",
-    "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-    "date": "2026-06-28",
-    "source": "arxiv"
-  },
-  {
-    "n": 2,
-    "id": "nmm-roadmap",
-    "url": "https://nmm-roadmap.github.io/Youtu_Lab___Native_Multimodal_Modeling_Roadmap.pdf",
-    "title": "Tencent YouTu Lab Research Paper: Toward Native Multimodal Modeling",
-    "date": "n.d.",
+    "id": "springer-video-diffusion",
+    "url": "https://link.springer.com/article/10.1007/s10462-025-11331-6",
+    "title": "Video diffusion generation: comprehensive review and open problems",
+    "date": "2025-08-20",
     "source": "web"
   },
   {
+    "n": 2,
+    "id": "2504.16081v1",
+    "url": "https://arxiv.org/abs/2504.16081v1",
+    "title": "Survey of Video Diffusion Models: Foundations, Implementations, and Applications",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
     "n": 3,
-    "id": "2604.06339",
-    "url": "https://arxiv.org/abs/2604.06339",
-    "title": "Evolution of Video Generative Foundations (arXiv + Web Survey)",
-    "date": "2026-04-07",
+    "id": "2609.38978",
+    "url": "https://arxiv.org/abs/2609.38978",
+    "title": "PARK: Accurate Block Retrieval for Sparse Attention in Video Diffusion Transformers",
+    "date": "2026-09-30",
     "source": "arxiv"
   },
   {
     "n": 4,
-    "id": "2405.13195",
-    "url": "https://huggingface.co/papers/2405.13195",
-    "title": "CamViG: Camera Aware Image-to-Video Generation with Multimodal Transformers",
-    "date": "2024-05-21",
+    "id": "2602.21818",
+    "url": "https://huggingface.co/papers/2602.21818",
+    "title": "SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model",
+    "date": "2026-02-25",
     "source": "hf-search"
   },
   {
     "n": 5,
-    "id": "2504.08641",
-    "url": "https://huggingface.co/papers/2504.08641",
-    "title": "Video-MSG: Training-free Guidance in Text-to-Video Generation via Multimodal Planning and Structured Noise Initialization",
-    "date": "2025-04-11",
+    "id": "2508.00733",
+    "url": "https://huggingface.co/papers/2508.00733",
+    "title": "AudioGen-Omni: A Unified Multimodal Diffusion Transformer for Video-Synchronized Audio, Speech, and Song Generation",
+    "date": "2025-08-01",
     "source": "hf-search"
   },
   {
     "n": 6,
-    "id": "2402.03040",
-    "url": "https://huggingface.co/papers/2402.03040",
-    "title": "InteractiveVideo: User-Centric Controllable Video Generation with Synergistic Multimodal Instructions",
-    "date": "2024-02-05",
-    "source": "hf-search"
+    "id": "2610.12458",
+    "url": "https://huggingface.co/papers/2610.12458",
+    "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+    "date": "2026-10-08",
+    "source": "hf-daily"
   },
   {
     "n": 7,
-    "id": "2610.12442",
-    "url": "https://huggingface.co/papers/2610.12442",
-    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
-    "date": "2026-10-08",
+    "id": "2608.26535",
+    "url": "https://huggingface.co/papers/2608.26535",
+    "title": "Multi2AV-Safety: Benchmarking Safety in Multimodal-to-Audio-Video Generation",
+    "date": "2026-08-27",
     "source": "hf-daily"
   },
   {
     "n": 8,
-    "id": "2610.12419",
-    "url": "https://huggingface.co/papers/2610.12419",
-    "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
-    "date": "2026-10-08",
-    "source": "hf-daily"
+    "id": "springer-2026-multimodal-ai",
+    "url": "https://link.springer.com/article/10.1007/s10462-026-11525-6",
+    "title": "Generative AI for multimodal content: a survey with empirical and experimental evaluations",
+    "date": "2026-03-19",
+    "source": "web"
   },
   {
     "n": 9,
+    "id": "2209.03430",
+    "url": "https://arxiv.org/abs/2209.03430",
+    "title": "Foundations & Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions",
+    "date": "2022-09-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2311.00308",
+    "url": "https://arxiv.org/abs/2311.00308",
+    "title": "From Image to Language: A Critical Analysis of Visual Question Answering (VQA) Approaches, Challenges, and Opportunities",
+    "date": "2023-11-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2610.12442",
+    "url": "https://arxiv.org/abs/2610.12442",
+    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2610.06847",
+    "url": "https://arxiv.org/abs/2610.06847",
+    "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
+    "date": "2026-10-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2610.11791",
+    "url": "https://arxiv.org/abs/2610.11791",
+    "title": "Phase-aware video generation for physics-grounded dynamics and interactions",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2602.19163",
+    "url": "https://huggingface.co/papers/2602.19163",
+    "title": "JavisDiT++: Unified Modeling and Optimization for Joint Audio-Video Generation",
+    "date": "2026-02-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2412.15322",
+    "url": "https://huggingface.co/papers/2412.15322",
+    "title": "Taming Multimodal Joint Training for High-Quality Video-to-Audio Synthesis",
+    "date": "2024-12-19",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
     "id": "2610.08941",
     "url": "https://huggingface.co/papers/2610.08941",
     "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
@@ -72,83 +128,11 @@
     "source": "hf-daily"
   },
   {
-    "n": 10,
-    "id": "bark-aws-video-gen",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-bark-com-and-aws-collaborated-to-build-a-scalable-video-generation-solution/",
-    "title": "How Bark.com and AWS collaborated to build a scalable video generation solution",
-    "date": "2026-03-18",
-    "source": "web"
-  },
-  {
-    "n": 11,
-    "id": "2607.18171",
-    "url": "https://arxiv.org/abs/2607.18171",
-    "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
-    "date": "2026-07-20",
-    "source": "arxiv"
-  },
-  {
-    "n": 12,
-    "id": "2606.16295",
-    "url": "https://arxiv.org/abs/2606.16295",
-    "title": "VisualClaw: A Real-Time, Personalized Agent for the Physical World",
-    "date": "2026-06-15",
-    "source": "arxiv"
-  },
-  {
-    "n": 13,
-    "id": "2310.10647",
-    "url": "https://huggingface.co/papers/2310.10647",
-    "title": "A Survey on Video Diffusion Models",
-    "date": "2023-10-16",
-    "source": "hf-search"
-  },
-  {
-    "n": 14,
-    "id": "2606.01164",
-    "url": "https://huggingface.co/papers/2606.01164",
-    "title": "Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends",
-    "date": "2026-05-31",
-    "source": "hf-search"
-  },
-  {
-    "n": 15,
-    "id": "springer-multimodal-survey-2026",
-    "url": "https://link.springer.com/article/10.1007/s10462-026-11525-6",
-    "title": "Generative AI for multimodal content: a survey with empirical and experimental evaluations",
-    "date": "2026-03-19",
-    "source": "web"
-  },
-  {
-    "n": 16,
-    "id": "2606.00133",
-    "url": "https://arxiv.org/abs/2606.00133",
-    "title": "World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
-    "date": "2026-05-28",
-    "source": "arxiv"
-  },
-  {
     "n": 17,
-    "id": "2501.13452",
-    "url": "https://huggingface.co/papers/2501.13452",
-    "title": "EchoVideo: Identity-Preserving Human Video Generation by Multimodal Feature Fusion",
-    "date": "2025-01-23",
-    "source": "hf-search"
-  },
-  {
-    "n": 18,
-    "id": "2410.13720",
-    "url": "https://huggingface.co/papers/2410.13720",
-    "title": "Movie Gen: A Cast of Media Foundation Models",
-    "date": "2024-10-17",
-    "source": "hf-search"
-  },
-  {
-    "n": 19,
-    "id": "2402.17139",
-    "url": "https://huggingface.co/papers/2402.17139",
-    "title": "Video as the New Language for Real-World Decision Making",
-    "date": "2024-02-27",
-    "source": "hf-search"
+    "id": "2610.12459",
+    "url": "https://huggingface.co/papers/2610.12459",
+    "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
+    "date": "2026-10-08",
+    "source": "hf-daily"
   }
 ]

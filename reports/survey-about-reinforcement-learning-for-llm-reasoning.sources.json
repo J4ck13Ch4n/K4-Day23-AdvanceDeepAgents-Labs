@@ -9,38 +9,78 @@
   },
   {
     "n": 2,
-    "id": "2610.11502",
-    "url": "https://arxiv.org/abs/2610.11502",
-    "title": "Fed-GRPO: Reward-Signal-Driven Federated Group Relative Policy Optimization",
-    "date": "2026-10-08",
-    "source": "arxiv"
-  },
-  {
-    "n": 3,
-    "id": "web-sebastian-raschka-rl-for-llm-reasoning",
-    "url": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
-    "title": "The State of Reinforcement Learning for LLM Reasoning",
-    "date": "2025-04-19",
+    "id": "2509.08827",
+    "url": "https://arxiv.org/abs/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "n.d.",
     "source": "web"
   },
   {
+    "n": 3,
+    "id": "2504.20834",
+    "url": "https://huggingface.co/papers/2504.20834",
+    "title": "Reinforcement Learning for LLM Reasoning Under Memory Constraints",
+    "date": "2025-04-29",
+    "source": "hf-search"
+  },
+  {
     "n": 4,
-    "id": "2508.00410",
-    "url": "https://huggingface.co/papers/2508.00410",
-    "title": "Co-Reward: Self-supervised Reinforcement Learning for Large Language Model Reasoning via Contrastive Agreement",
-    "date": "2025-08-01",
+    "id": "2506.14965",
+    "url": "https://huggingface.co/papers/2506.14965",
+    "title": "Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective",
+    "date": "2025-06-17",
     "source": "hf-search"
   },
   {
     "n": 5,
-    "id": "2602.20722",
-    "url": "https://huggingface.co/papers/2602.20722",
-    "title": "Buffer Matters: Unleashing the Power of Off-Policy Reinforcement Learning in Large Language Model Reasoning",
-    "date": "2026-03-16",
+    "id": "2505.17652",
+    "url": "https://huggingface.co/papers/2505.17652",
+    "title": "Rethinking the Sampling Criteria in Reinforcement Learning for LLM Reasoning: A Competence-Difficulty Alignment Perspective",
+    "date": "2025-05-23",
     "source": "hf-search"
   },
   {
     "n": 6,
+    "id": "2506.02177",
+    "url": "https://huggingface.co/papers/2506.02177",
+    "title": "Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts",
+    "date": "2025-06-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "S2666-3899(25)00218-1",
+    "url": "https://www.cell.com/patterns/fulltext/S2666-3899(25)00218-1",
+    "title": "Toward large reasoning models: A survey of reinforced reasoning with large language models",
+    "date": "2025-10-10",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2603.27375",
+    "url": "https://arxiv.org/abs/2603.27375",
+    "title": "Bridging Visual Representation and Reinforcement Learning from Verifiable Rewards in Large Vision-Language Models",
+    "date": "2026-03-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2605.01417",
+    "url": "https://arxiv.org/abs/2605.01417",
+    "title": "Medmarks: A Comprehensive Open-Source LLM Benchmark Suite for Medical Tasks",
+    "date": "2026-05-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2608.07525",
+    "url": "https://arxiv.org/abs/2608.07525",
+    "title": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
+    "date": "2026-07-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
     "id": "2610.08215",
     "url": "https://huggingface.co/papers/2610.08215",
     "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
@@ -48,7 +88,7 @@
     "source": "hf-daily"
   },
   {
-    "n": 7,
+    "n": 12,
     "id": "2610.11959",
     "url": "https://huggingface.co/papers/2610.11959",
     "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
@@ -56,35 +96,19 @@
     "source": "hf-daily"
   },
   {
-    "n": 8,
-    "id": "2602.09305",
-    "url": "https://arxiv.org/abs/2602.09305",
-    "title": "Reward Modeling for Reinforcement Learning-Based LLM Reasoning: Design, Challenges, and Evaluation",
-    "date": "2026-02-10",
+    "n": 13,
+    "id": "2610.11794",
+    "url": "https://huggingface.co/papers/2610.11794",
+    "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 14,
+    "id": "2610.11854",
+    "url": "https://arxiv.org/abs/2610.11854",
+    "title": "GRPODropout: Less is More for Online Reinforcement Learning Rollouts",
+    "date": "2026-10-08",
     "source": "arxiv"
-  },
-  {
-    "n": 9,
-    "id": "10.1145/3837057",
-    "url": "https://dl.acm.org/doi/abs/10.1145/3837057?af=R",
-    "title": "Reinforcement Learning in the Era of Large Language Models: Challenges and Opportunities",
-    "date": "2026-09-29",
-    "source": "web"
-  },
-  {
-    "n": 10,
-    "id": "web-lmrlgym",
-    "url": "https://proceedings.mlr.press/v267/abdulhai25a.html",
-    "title": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models",
-    "date": "2025-10-06",
-    "source": "web"
-  },
-  {
-    "n": 11,
-    "id": "web-arxiv-2504-20571",
-    "url": "https://arxiv.org/abs/2504.20571",
-    "title": "Reinforcement Learning for Reasoning in Large Language Models",
-    "date": "n.d.",
-    "source": "web"
   }
 ]

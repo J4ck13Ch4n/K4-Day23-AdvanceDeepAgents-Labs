@@ -1,22 +1,23 @@
 {
   "topic": "survey about reinforcement learning for LLM reasoning",
   "model": "gpt-4.1",
-  "elapsed_s": 218.2,
-  "subagent_calls": 5,
+  "elapsed_s": 236.6,
+  "subagent_calls": 4,
   "tool_calls": {
-    "write_todos": 3,
-    "task": 5,
+    "write_todos": 1,
+    "task": 4,
     "ls": 1,
-    "read_file": 8,
-    "grep": 6,
+    "read_file": 3,
+    "grep": 1,
     "write_file": 2,
-    "execute": 3
+    "execute": 5,
+    "edit_file": 5
   },
   "tokens": {
-    "input": 225135,
-    "output": 7550
+    "input": 219830,
+    "output": 8311
   },
-  "n_sources": 11,
+  "n_sources": 14,
   "source_families": [
     "arxiv",
     "hf-daily",

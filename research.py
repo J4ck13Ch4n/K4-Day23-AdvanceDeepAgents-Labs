@@ -125,6 +125,12 @@ def summarize(messages, elapsed, model_name):
     }
 
 
+NUDGES = 4
+NUDGE = (
+    "You stopped before the report exists. Do not describe plans in text: call tools now. Continue the workflow "
+    "from where you are (delegate with `task`, verify notes, merge sources.json, write the report body, run the "
+    "finalizer, run the validator) until the validator prints OK."
+)
 MIN_BODY_WORDS = 1000
 MIN_SOURCES = 6
 _CANONICAL = {
@@ -312,11 +318,14 @@ def _run_once(topic, model, model_name):
                 },
             )
             agent = build_lead_agent(backend, model)
-            result = agent.invoke(
-                {"messages": [{"role": "user", "content": build_prompt(topic)}]},
-                config={"recursion_limit": 1000},
-            )
-            messages = result.get("messages", []) if isinstance(result, dict) else getattr(result, "messages", [])
+            messages = [{"role": "user", "content": build_prompt(topic)}]
+            for _ in range(NUDGES + 1):
+                result = agent.invoke({"messages": messages}, config={"recursion_limit": 1000})
+                messages = result.get("messages", []) if isinstance(result, dict) else getattr(result, "messages", [])
+                if backend.execute(f"test -s {REPORT_PATH} && echo yes").output.strip() == "yes":
+                    break
+                # the lead sometimes ends its turn with a text-only plan: tell it to keep going in the same sandbox
+                messages = [*messages, {"role": "user", "content": NUDGE}]
             elapsed = time.monotonic() - start
             try:
                 out = save_outputs(backend, topic, messages, elapsed, model_name)

@@ -141,25 +141,57 @@ def check(report_text, sources):
 
 
 NOTES_DIR = "/tmp/work/research/notes"
-_NAME = re.compile(r"\b(?:[A-Z][a-z]+[A-Z]\w*|[A-Z][A-Za-z]*-[A-Z0-9]\w*|[A-Za-z]+-\d\w*)\b")
+MIN_WORDS = 1000
+_NAME = re.compile(
+    r"\b(?:[A-Z][a-z]+[A-Z]\w*|[A-Z][A-Za-z]*-[A-Z0-9]\w*|[A-Za-z]+-\d\w*|[A-Z]{4,}[A-Za-z0-9]*)\b"
+)
 _NUM = re.compile(r"\b\d[\d,.]*\d\b")
+_CITE = re.compile(r"\[(\d+)\]")
+_NOTE_URL = re.compile(r"(?mi)^\s*[-*]?\s*url:\s*(\S+)")
+_COMMON = {"TL;DR", "NOTE"}
 
 
-def check_grounding(report_text, notes_text):
-    """Names and numbers in the report body must appear in the researcher notes (no claims from memory)."""
+def _norm(text):
+    return (text or "").lower().replace(",", "")
+
+
+def _note_blocks(notes_text):
+    """Map every url found in the notes to the text of its block ('## title' up to the next '## ')."""
+    blocks = {}
+    for chunk in re.split(r"(?m)^(?=##\s)", notes_text or ""):
+        m = _NOTE_URL.search(chunk)
+        if m:
+            blocks[m.group(1).strip().rstrip(").,;")] = _norm(chunk)
+    return blocks
+
+
+def check_grounding(report_text, notes_text, sources=None):
+    """Names and numbers in the report body must come from the researcher notes (no claims from memory).
+
+    A sentence that cites [n] must find its names/numbers in the notes block of source n (url match), so a claim
+    cannot borrow a fact from a different paper. Sentences without a citation are checked against all notes."""
     body = _REF_HEADING.split(report_text or "")[0]
     body = _LINKDEF.sub("", _strip_code(body))
-    body = "\n".join(l for l in body.splitlines() if not l.lstrip().startswith("#"))
-    body = re.sub(r"\[\d+(?:\s*[,–-]\s*\d+)*\]", " ", body)
-    notes = (notes_text or "").lower().replace(",", "")
-    missing = set()
-    for tok in _NAME.findall(body) + _NUM.findall(body):
-        if re.fullmatch(r"(19|20)\d\d", tok):
+    notes = _norm(notes_text)
+    blocks = _note_blocks(notes_text)
+    url_of = {s.get("n"): str(s.get("url", "")).strip() for s in (sources or []) if isinstance(s, dict)}
+    problems = set()
+    for line in body.splitlines():
+        if line.lstrip().startswith("#"):
             continue
-        if tok.lower().replace(",", "") not in notes:
-            missing.add(tok)
-    return [f"'{t}' appears in the report but in no researcher note: remove it or cite a source that states it"
-            for t in sorted(missing)]
+        for sent in re.split(r"(?<=[.!?])\s+", line):
+            cited = [int(n) for n in _CITE.findall(sent)]
+            clean = _GROUP.sub(" ", sent)
+            scope = " ".join(blocks.get(url_of.get(n, ""), "") for n in cited).strip()
+            where = "in the notes of the sources it cites" if scope else "in no researcher note"
+            haystack = scope or notes
+            for tok in _NAME.findall(clean) + _NUM.findall(clean):
+                if re.fullmatch(r"(19|20)\d\d", tok) or tok in _COMMON:
+                    continue
+                if _norm(tok) not in haystack:
+                    problems.add(f"'{tok}' appears {('with ' + ''.join(f'[{n}]' for n in cited)) if cited else ''} "
+                                 f"but is not {where}: delete the claim or cite the source that states it")
+    return sorted(problems)
 
 
 def _read_notes(notes_dir=NOTES_DIR):
@@ -188,7 +220,11 @@ def main(argv):
     problems = check(report, sources)
     notes = _read_notes() if len(argv) <= 1 else None  # grounding only in the sandbox run
     if notes:
-        problems += check_grounding(report, notes)
+        problems += check_grounding(report, notes, sources)
+        words = len(_REF_HEADING.split(report)[0].split())
+        if words < MIN_WORDS:
+            problems.append(f"report body has {words} words (< {MIN_WORDS}): add more comparisons and facts "
+                            "stated in the notes of the cited sources, then re-run finalizer and validator")
     if problems:
         print("\n".join(problems))
         return 1

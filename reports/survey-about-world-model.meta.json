@@ -1,23 +1,21 @@
 {
   "topic": "survey about world model",
   "model": "gpt-4.1",
-  "elapsed_s": 241.6,
+  "elapsed_s": 259.1,
   "subagent_calls": 4,
   "tool_calls": {
-    "write_todos": 2,
+    "write_todos": 3,
     "task": 4,
-    "ls": 1,
-    "read_file": 6,
-    "grep": 8,
+    "read_file": 5,
     "write_file": 2,
-    "execute": 5,
-    "edit_file": 2
+    "execute": 8,
+    "edit_file": 6
   },
   "tokens": {
-    "input": 295470,
-    "output": 7278
+    "input": 383210,
+    "output": 8045
   },
-  "n_sources": 8,
+  "n_sources": 15,
   "source_families": [
     "arxiv",
     "hf-daily",
