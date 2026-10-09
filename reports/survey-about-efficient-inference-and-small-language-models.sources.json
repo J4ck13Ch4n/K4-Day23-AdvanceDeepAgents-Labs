@@ -1,74 +1,106 @@
 [
   {
     "n": 1,
-    "id": "2610.07443",
-    "url": "https://arxiv.org/abs/2610.07443",
-    "title": "A Shape-Adaptive Architecture with Disaggregated Quantization for Efficient LLM Serving",
-    "date": "2026-10-05",
+    "id": "2402.09748v1",
+    "url": "https://arxiv.org/abs/2402.09748",
+    "title": "Model Compression and Efficient Inference for Large Language Models",
+    "date": "2024-02-15",
     "source": "arxiv"
   },
   {
     "n": 2,
-    "id": "2610.02800",
-    "url": "https://arxiv.org/abs/2610.02800",
-    "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference Acceleration",
-    "date": "2026-10-02",
-    "source": "arxiv"
-  },
-  {
-    "n": 3,
-    "id": "2610.12242",
-    "url": "https://huggingface.co/papers/2610.12242",
-    "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
-    "date": "2026-10-08",
-    "source": "hf-daily"
-  },
-  {
-    "n": 4,
-    "id": "S1383762126000081",
-    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1383762126000081",
-    "title": "Accelerating language giants: A survey of optimization strategies for LLM inference on hardware platforms",
-    "date": "2026-03-01",
+    "id": "hal-04997150v1",
+    "url": "https://hal.science/hal-04997150v1/file/Exploring_Model_Compression_Techniques_for_Efficient_Inference_of_Large_Language_Models.pdf",
+    "title": "Exploring Model Compression Techniques for Efficient Inference of Large Language Models (HAL)",
+    "date": "n.d.",
     "source": "web"
   },
   {
+    "n": 3,
+    "id": "2501.04519",
+    "url": "https://huggingface.co/papers/2501.04519",
+    "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking",
+    "date": "2025-01-08",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2504.03947",
+    "url": "https://huggingface.co/papers/2504.03947",
+    "title": "Distillation and Refinement of Reasoning in Small Language Models for Document Re-ranking",
+    "date": "2025-04-04",
+    "source": "hf-search"
+  },
+  {
     "n": 5,
-    "id": "2410.20011",
-    "url": "https://huggingface.co/papers/2410.20011",
-    "title": "A Survey of Small Language Models",
-    "date": "2024-10-25",
+    "id": "2402.17834",
+    "url": "https://huggingface.co/papers/2402.17834",
+    "title": "Stable LM 2 1.6B Technical Report",
+    "date": "2024-02-27",
     "source": "hf-search"
   },
   {
     "n": 6,
-    "id": "2405.20347",
-    "url": "https://huggingface.co/papers/2405.20347",
-    "title": "Small Language Models for Application Interactions: A Case Study",
-    "date": "2024-05-23",
-    "source": "hf-search"
+    "id": "fn397vnh6y5",
+    "url": "https://exa.ai/library/publication/fn397vnh6y5",
+    "title": "Are We There Yet? A Measurement Study of Efficiency for LLM Applications on Mobile Devices",
+    "date": "2025-04-25",
+    "source": "web"
   },
   {
     "n": 7,
-    "id": "2502.14305",
-    "url": "https://huggingface.co/papers/2502.14305",
-    "title": "Scaling Down, Serving Fast: Compressing and Deploying Efficient LLMs for Recommendation Systems",
-    "date": "2025-10-26",
-    "source": "hf-search"
+    "id": "2604.24636",
+    "url": "https://arxiv.org/abs/2604.24636",
+    "title": "Less Is More: Engineering Challenges of On-Device Small Language Model Integration in a Mobile Application",
+    "date": "n.d.",
+    "source": "web"
   },
   {
     "n": 8,
-    "id": "2606.30062",
-    "url": "https://huggingface.co/papers/2606.30062",
-    "title": "Little Brains, Big Feats: Exploring Compact Language Models",
-    "date": "2026-06-29",
-    "source": "hf-daily"
+    "id": "2603.16867",
+    "url": "https://arxiv.org/abs/2603.16867",
+    "title": "Efficient Reasoning on the Edge",
+    "date": "2026-03-17",
+    "source": "arxiv"
   },
   {
     "n": 9,
-    "id": "2609.33051",
-    "url": "https://searcharxiv.com/abs/2609.33051",
-    "title": "SketchSSM: Write to the Full State, Read from a Compact Sketch",
+    "id": "2511.11624",
+    "url": "https://arxiv.org/abs/2511.11624",
+    "title": "Characterizing and Understanding Energy Footprint and Efficiency of Small Language Model on Edges",
+    "date": "2025-11-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2610.08215",
+    "url": "https://huggingface.co/papers/2610.08215",
+    "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 11,
+    "id": "2512.23747",
+    "url": "https://huggingface.co/papers/2512.23747",
+    "title": "State-of-the-art Small Language Coder Model: Mify-Coder",
+    "date": "2025-12-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "2610.08917",
+    "url": "https://huggingface.co/papers/2610.08917",
+    "title": "CARE: Certifying Acceleration for Vision-Language-Action Inference",
     "date": "2026-10-06",
-    "source": "web"
+    "source": "hf-daily"
+  },
+  {
+    "n": 13,
+    "id": "2609.39068",
+    "url": "https://huggingface.co/papers/2609.39068",
+    "title": "SparseEngine: Sparse-First Inference Engine",
+    "date": "2026-09-30",
+    "source": "hf-daily"
   }
 ]

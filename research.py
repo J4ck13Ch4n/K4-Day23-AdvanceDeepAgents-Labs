@@ -322,6 +322,9 @@ def _run_once(topic, model, model_name):
                 out = save_outputs(backend, topic, messages, elapsed, model_name)
             except RuntimeError as e:
                 print(f"FAILED: {e}", file=sys.stderr)
+                last = messages[-1] if messages else None
+                tail = getattr(last, "content", last)
+                print(f"lead's last message: {str(tail)[:600]}", file=sys.stderr)
                 return 1
     except Exception as e:  # noqa: BLE001 - sandbox/agent errors become exit 1
         print(f"FAILED: {type(e).__name__}: {e}", file=sys.stderr)
