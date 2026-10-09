@@ -90,6 +90,9 @@ Workflow (do all steps, in order):
      >= 3 families, and the body MUST be >= 1000 words (`wc -w`). If short, expand each theme section
      with more comparisons, numbers, years, and model names FROM THE NOTES (never invent), then re-verify.
      Validator OK alone is not sufficient to finish.
+   Attribution rule: a citation [n] may only support facts found in source n's own notes block. When you
+   name a model, method or number, cite the source whose notes mention it; never cite a different source for it,
+   and never name a model/method that no notes block mentions. Prefer fewer, correctly attributed claims.
    Synthesize by theme and compare approaches; do NOT write one paragraph per paper. Every non-obvious
    claim carries an inline [n] citation; every section has at least 2 citations. Use ONLY facts found
    in the notes; never invent sources, URLs, names, or numbers. The report MUST cite at least 3 of the

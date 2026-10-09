@@ -1,46 +1,78 @@
 [
   {
     "n": 1,
-    "id": "2504.20571",
-    "url": "https://arxiv.org/abs/2504.20571",
-    "title": "Reinforcement Learning for Reasoning in Large Language Models",
-    "date": "n.d.",
+    "id": "2610.11854",
+    "url": "https://arxiv.org/abs/2610.11854",
+    "title": "GRPODropout: Less is More for Online Reinforcement Learning Rollouts",
+    "date": "2026-10-08",
     "source": "arxiv"
   },
   {
     "n": 2,
-    "id": "2509.08827",
-    "url": "https://arxiv.org/abs/2509.08827",
-    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
-    "date": "n.d.",
-    "source": "arxiv"
-  },
-  {
-    "n": 3,
-    "id": "3837057",
-    "url": "https://dl.acm.org/doi/abs/10.1145/3837057?af=R",
-    "title": "Reinforcement Learning in the Era of Large Language Models",
+    "id": "3834858",
+    "url": "https://dl.acm.org/doi/full/10.1145/3834858",
+    "title": "A Technical Survey of Reinforcement Learning Techniques for Large Language Models | ACM Transactions on Intelligent Systems and Technology",
     "date": "2026-09-29",
     "source": "web"
   },
   {
+    "n": 3,
+    "id": "2403.04642",
+    "url": "https://huggingface.co/papers/2403.04642",
+    "title": "Teaching Large Language Models to Reason with Reinforcement Learning",
+    "date": "2024-03-07",
+    "source": "hf-search"
+  },
+  {
     "n": 4,
-    "id": "2610.06100",
-    "url": "https://huggingface.co/papers/2610.06100",
-    "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
-    "date": "2026-10-05",
-    "source": "hf-daily"
+    "id": "does-reinforcement-learning-really-incentivize-llms",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/537d5aa768c2d534016a4d06f87bc8fb-Paper-Conference.pdf",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "date": "n.d.",
+    "source": "web"
   },
   {
     "n": 5,
-    "id": "2506.14965",
-    "url": "https://huggingface.co/papers/2506.14965",
-    "title": "Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective",
-    "date": "2025-06-17",
+    "id": "2307.04964",
+    "url": "https://huggingface.co/papers/2307.04964",
+    "title": "Secrets of RLHF in Large Language Models Part I: PPO",
+    "date": "2023-07-11",
     "source": "hf-search"
   },
   {
     "n": 6,
+    "id": "2509.00309",
+    "url": "https://huggingface.co/papers/2509.00309",
+    "title": "Balanced Actor Initialization: Stable RLHF Training of Distillation-Based Reasoning Models",
+    "date": "2025-08-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2609.34344",
+    "url": "https://huggingface.co/papers/2609.34344",
+    "title": "Learning to Steer, Steering to See: Unveiling the Geometry of RLVR in Large Language Models via Trainable Vectors",
+    "date": "2026-09-28",
+    "source": "hf-daily"
+  },
+  {
+    "n": 8,
+    "id": "2508.08221",
+    "url": "https://arxiv.org/abs/2508.08221",
+    "title": "Part I: Tricks or Traps? A Deep Dive into RL for LLM Reasoning",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "web-limit-of-rlvr",
+    "url": "https://limit-of-rlvr.github.io",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "date": "2025-06-25",
+    "source": "web"
+  },
+  {
+    "n": 10,
     "id": "2504.20834",
     "url": "https://huggingface.co/papers/2504.20834",
     "title": "Reinforcement Learning for LLM Reasoning Under Memory Constraints",
@@ -48,10 +80,58 @@
     "source": "hf-search"
   },
   {
-    "n": 7,
+    "n": 11,
+    "id": "2505.17652",
+    "url": "https://huggingface.co/papers/2505.17652",
+    "title": "Rethinking the Sampling Criteria in Reinforcement Learning for LLM Reasoning: A Competence-Difficulty Alignment Perspective",
+    "date": "2025-05-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "2506.14965",
+    "url": "https://huggingface.co/papers/2506.14965",
+    "title": "Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective",
+    "date": "2025-06-17",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2501.09223",
+    "url": "https://huggingface.co/papers/2501.09223",
+    "title": "Foundations of Large Language Models (Book)",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 14,
+    "id": "2610.11352",
+    "url": "https://arxiv.org/abs/2610.11352",
+    "title": "RL-ARC: Calibrating Large Reasoning Models via Reasoning-guided Uncertainty",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 15,
+    "id": "2610.11502",
+    "url": "https://arxiv.org/abs/2610.11502",
+    "title": "Fed-GRPO: Reward-Signal-Driven Federated Group Relative Policy Optimization",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "2610.11959",
+    "url": "https://huggingface.co/papers/2610.11959",
+    "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 17,
     "id": "2610.12061",
     "url": "https://arxiv.org/abs/2610.12061",
-    "title": "Challenges in Reinforcement Learning Implementation for LLMs",
+    "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
     "date": "2026-10-08",
     "source": "arxiv"
   }
