@@ -1,114 +1,74 @@
 [
   {
     "n": 1,
-    "id": "2610.11696",
-    "url": "https://arxiv.org/abs/2610.11696",
-    "title": "A 3D Characterization Framework for Intelligent Sequential Decision Making",
+    "id": "2610.11899",
+    "url": "https://arxiv.org/abs/2610.11899",
+    "title": "Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent Systems",
     "date": "2026-10-08",
     "source": "arxiv"
   },
   {
     "n": 2,
-    "id": "2406.05804v5-html",
-    "url": "https://arxiv.org/html/2406.05804v5",
+    "id": "arxiv:2406.05804v5",
+    "url": "https://arxiv.org/abs/2406.05804",
     "title": "A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning",
-    "date": "2024-06",
+    "date": "2024-06-10",
     "source": "web"
   },
   {
     "n": 3,
-    "id": "2512.13278",
-    "url": "https://huggingface.co/papers/2512.13278",
-    "title": "AutoTool: Dynamic Tool Selection and Integration for Agentic Reasoning",
-    "date": "2025-12-15",
-    "source": "hf-search"
+    "id": "2610.11482",
+    "url": "https://arxiv.org/abs/2610.11482",
+    "title": "Evaluating Local Language Model Agents for Reproducible Data Engineering: An Empirical Software Engineering Study of Mobility Workflows",
+    "date": "2026-10-08",
+    "source": "arxiv"
   },
   {
     "n": 4,
-    "id": "2607.15660",
-    "url": "https://huggingface.co/papers/2607.15660",
-    "title": "ToolVerse: Unlocking Massive Environments and Long-Horizon Tasks for Agentic Reinforcement Learning",
-    "date": "2026-07-17",
+    "id": "2603.08262",
+    "url": "https://huggingface.co/papers/2603.08262",
+    "title": "FinToolBench: Evaluating LLM Agents for Real-World Financial Tool Use",
+    "date": "2026-03-09",
     "source": "hf-search"
   },
   {
     "n": 5,
-    "id": "2609.05818",
-    "url": "https://huggingface.co/papers/2609.05818",
-    "title": "Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools",
-    "date": "2026-09-05",
+    "id": "2412.14470",
+    "url": "https://huggingface.co/papers/2412.14470",
+    "title": "Agent-SafetyBench: Evaluating the Safety of LLM Agents",
+    "date": "2024-12-19",
     "source": "hf-search"
   },
   {
     "n": 6,
-    "id": "2610.08215",
-    "url": "https://huggingface.co/papers/2610.08215",
-    "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
-    "date": "2026-10-08",
-    "source": "hf-daily"
+    "id": "acebench-emnlp2025",
+    "url": "https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.697.pdf",
+    "title": "ACEBench: A Comprehensive Evaluation of LLM Tool Usage",
+    "date": "2025-11-04",
+    "source": "web"
   },
   {
     "n": 7,
-    "id": "2610.12419",
-    "url": "https://huggingface.co/papers/2610.12419",
-    "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
-    "date": "2026-10-08",
-    "source": "hf-daily"
+    "id": "2502.11221",
+    "url": "https://huggingface.co/papers/2502.11221",
+    "title": "PlanGenLLMs: A Modern Survey of LLM Planning Capabilities",
+    "date": "2025-02-16",
+    "source": "hf-search"
   },
   {
     "n": 8,
-    "id": "2609.39068",
-    "url": "https://huggingface.co/papers/2609.39068",
-    "title": "SparseEngine: Sparse-First Inference Engine",
-    "date": "2026-09-30",
-    "source": "hf-daily"
+    "id": "ace.ewapub.com/article/view/28954.pdf",
+    "url": "https://ace.ewapub.com/article/view/28954.pdf",
+    "title": "Empowering LLM-basedAgents: Methods and Challenges in Tool Use",
+    "date": "2025",
+    "source": "web"
   },
   {
     "n": 9,
-    "id": "findings-acl-1330",
-    "url": "https://aclanthology.org/2026.findings-acl.1330.pdf",
-    "title": "A Survey on Evaluation of LLM-based Agents",
-    "date": "2026-07-02",
-    "source": "web"
-  },
-  {
-    "n": 10,
-    "id": "2608.11965",
-    "url": "https://arxiv.org/abs/2608.11965",
-    "title": "Developing LLM-based Multi-Agent Systems in Software Engineering: A Mixed-Method Experience Report",
-    "date": "2026-08-12",
+    "id": "2609.23894",
+    "url": "https://arxiv.org/abs/2609.23894",
+    "title": "Connecting the Dots in Agentic AI Security: A Cross-Dimensional Threat Taxonomy, Evaluation Maturity, and Open Challenges",
+    "date": "2026-09-20",
     "source": "arxiv"
-  },
-  {
-    "n": 11,
-    "id": "2608.06909",
-    "url": "https://arxiv.org/abs/2608.06909",
-    "title": "Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework",
-    "date": "2026-08-07",
-    "source": "arxiv"
-  },
-  {
-    "n": 12,
-    "id": "2610.12242",
-    "url": "https://huggingface.co/papers/2610.12242",
-    "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
-    "date": "2026-10-08",
-    "source": "hf-daily"
-  },
-  {
-    "n": 13,
-    "id": "2610.11959",
-    "url": "https://huggingface.co/papers/2610.11959",
-    "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
-    "date": "2026-10-08",
-    "source": "hf-daily"
-  },
-  {
-    "n": 14,
-    "id": "web-2603.22862v1",
-    "url": "https://arxiv.org/html/2603.22862v1",
-    "title": "The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration",
-    "date": "n.d.",
-    "source": "web"
   }
 ]

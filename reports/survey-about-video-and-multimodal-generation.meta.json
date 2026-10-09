@@ -1,22 +1,23 @@
 {
   "topic": "survey about video and multimodal generation",
   "model": "gpt-4.1",
-  "elapsed_s": 158.2,
+  "elapsed_s": 372.1,
   "subagent_calls": 5,
   "tool_calls": {
     "write_todos": 1,
     "task": 5,
-    "ls": 2,
-    "grep": 4,
-    "read_file": 4,
+    "ls": 3,
+    "read_file": 9,
+    "grep": 5,
     "write_file": 2,
-    "execute": 4
+    "execute": 7,
+    "edit_file": 5
   },
   "tokens": {
-    "input": 143137,
-    "output": 6132
+    "input": 514237,
+    "output": 9405
   },
-  "n_sources": 11,
+  "n_sources": 19,
   "source_families": [
     "arxiv",
     "hf-daily",

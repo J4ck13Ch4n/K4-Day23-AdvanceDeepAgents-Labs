@@ -105,7 +105,9 @@ Workflow (do all steps, in order):
    report body. After finalizing, re-check source_families: if a family was dropped because uncited, add
    citations or delegate more research so the final report still draws on >= 3 families.
 7. Run the validator with `execute` (`python3 {VALIDATOR_PATH}`) and fix problems until it prints OK.
-   Never finish with validator errors.
+   Never finish with validator errors. The validator also flags every model name, acronym-with-digits or number
+   in the body that appears in NO researcher note ("in no researcher note"): delete that claim or rewrite it with
+   facts the notes state; never add the name to the notes yourself.
 8. Ask the `citation-checker` subagent to spot-check 3-5 claims: give it exact quoted claims with their
    [n] and source URLs; it fetches each URL and answers SUPPORTED / PARTIAL / UNSUPPORTED / UNVERIFIABLE
    with one sentence of evidence. Fix or remove claims that are not SUPPORTED, then re-run finalizer

@@ -5,6 +5,7 @@ research.py uploads this file to the sandbox and the lead agent runs it with the
 It must exit 0 and print "OK: ..." when the report is consistent, else print each problem and exit 1.
 """
 import json
+import os
 import re
 import sys
 
@@ -139,6 +140,40 @@ def check(report_text, sources):
     return problems
 
 
+NOTES_DIR = "/tmp/work/research/notes"
+_NAME = re.compile(r"\b(?:[A-Z][a-z]+[A-Z]\w*|[A-Z][A-Za-z]*-[A-Z0-9]\w*|[A-Za-z]+-\d\w*)\b")
+_NUM = re.compile(r"\b\d[\d,.]*\d\b")
+
+
+def check_grounding(report_text, notes_text):
+    """Names and numbers in the report body must appear in the researcher notes (no claims from memory)."""
+    body = _REF_HEADING.split(report_text or "")[0]
+    body = _LINKDEF.sub("", _strip_code(body))
+    body = "\n".join(l for l in body.splitlines() if not l.lstrip().startswith("#"))
+    body = re.sub(r"\[\d+(?:\s*[,–-]\s*\d+)*\]", " ", body)
+    notes = (notes_text or "").lower().replace(",", "")
+    missing = set()
+    for tok in _NAME.findall(body) + _NUM.findall(body):
+        if re.fullmatch(r"(19|20)\d\d", tok):
+            continue
+        if tok.lower().replace(",", "") not in notes:
+            missing.add(tok)
+    return [f"'{t}' appears in the report but in no researcher note: remove it or cite a source that states it"
+            for t in sorted(missing)]
+
+
+def _read_notes(notes_dir=NOTES_DIR):
+    try:
+        names = sorted(os.listdir(notes_dir))
+    except OSError:
+        return None
+    parts = []
+    for name in names:
+        with open(os.path.join(notes_dir, name), encoding="utf-8", errors="ignore") as f:
+            parts.append(f.read())
+    return "\n".join(parts)
+
+
 def main(argv):
     report_path = argv[1] if len(argv) > 1 else REPORT
     sources_path = argv[2] if len(argv) > 2 else SOURCES
@@ -151,6 +186,9 @@ def main(argv):
         print(f"cannot read inputs: {exc}")
         return 1
     problems = check(report, sources)
+    notes = _read_notes() if len(argv) <= 1 else None  # grounding only in the sandbox run
+    if notes:
+        problems += check_grounding(report, notes)
     if problems:
         print("\n".join(problems))
         return 1
