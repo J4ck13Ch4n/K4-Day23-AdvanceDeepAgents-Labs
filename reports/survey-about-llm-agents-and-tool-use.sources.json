@@ -1,79 +1,79 @@
 [
   {
     "n": 1,
-    "id": "2309.07870",
-    "url": "https://arxiv.org/abs/2309.07870",
-    "title": "Agents: An Open-source Framework for Autonomous Language Agents",
+    "id": "2610.11899",
+    "url": "https://arxiv.org/abs/2610.11899",
+    "title": "Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2609.13731",
+    "url": "https://arxiv.org/abs/2609.13731",
+    "title": "Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges",
+    "date": "2026-09-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "openai-guide",
+    "url": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/",
+    "title": "A Practical Guide to Building AI Agents (OpenAI)",
     "date": "n.d.",
     "source": "web"
   },
   {
-    "n": 2,
-    "id": "2509.01560",
-    "url": "https://huggingface.co/papers/2509.01560",
-    "title": "In-N-Out: A Parameter-Level API Graph Dataset for Tool Agents",
-    "date": "2025-12-30",
-    "source": "hf-search"
-  },
-  {
-    "n": 3,
-    "id": "2401.10727",
-    "url": "https://huggingface.co/papers/2401.10727",
-    "title": "MLLM-Tool: A Multimodal Large Language Model For Tool Agent Learning",
-    "date": "2024-01-19",
-    "source": "hf-search"
-  },
-  {
     "n": 4,
-    "id": "2412.15606",
-    "url": "https://huggingface.co/papers/2412.15606",
-    "title": "Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage",
-    "date": "2024-12-20",
+    "id": "2509.26490",
+    "url": "https://huggingface.co/papers/2509.26490",
+    "title": "VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications",
+    "date": "2025-09-30",
     "source": "hf-search"
   },
   {
     "n": 5,
-    "id": "2610.11959",
-    "url": "https://huggingface.co/papers/2610.11959",
-    "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
-    "date": "2026-10-08",
-    "source": "hf-daily"
-  },
-  {
-    "n": 6,
-    "id": "2610.12403",
-    "url": "https://huggingface.co/papers/2610.12403",
-    "title": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
-    "date": "2026-10-08",
-    "source": "hf-daily"
-  },
-  {
-    "n": 7,
-    "id": "2503.11069",
-    "url": "https://huggingface.co/papers/2503.11069",
-    "title": "API Agents vs. GUI Agents: Divergence and Convergence",
-    "date": "2025-03-14",
+    "id": "2407.08713",
+    "url": "https://huggingface.co/papers/2407.08713",
+    "title": "GTA: A Benchmark for General Tool Agents",
+    "date": "2024-07-11",
     "source": "hf-search"
   },
   {
-    "n": 8,
-    "id": "2610.08215",
-    "url": "https://huggingface.co/papers/2610.08215",
-    "title": "Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?",
+    "n": 6,
+    "id": "2601.06328",
+    "url": "https://huggingface.co/papers/2601.06328",
+    "title": "ToolGym: an Open-world Tool-using Environment for Scalable Agent Testing and Data Curation",
+    "date": "2026-01-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2610.12289",
+    "url": "https://huggingface.co/papers/2610.12289",
+    "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
     "date": "2026-10-08",
     "source": "hf-daily"
   },
   {
-    "n": 9,
-    "id": "2610.12421",
-    "url": "https://huggingface.co/papers/2610.12421",
+    "n": 8,
+    "id": "2610.12419",
+    "url": "https://huggingface.co/papers/2610.12419",
     "title": "OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video",
     "date": "2026-10-08",
     "source": "hf-daily"
   },
   {
+    "n": 9,
+    "id": "2609.31507",
+    "url": "https://huggingface.co/papers/2609.31507",
+    "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
+    "date": "2026-09-25",
+    "source": "hf-daily"
+  },
+  {
     "n": 10,
-    "id": "web-01",
+    "id": "kdd-31-survey",
     "url": "https://dl.acm.org/doi/10.1145/3711896.3736570",
     "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
     "date": "2025-08-03",
@@ -81,66 +81,26 @@
   },
   {
     "n": 11,
-    "id": "web-02",
-    "url": "https://aclanthology.org/2024.findings-acl.259.pdf",
-    "title": "UltraTool: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios",
-    "date": "2024-08-11",
+    "id": "acl-2026-survey",
+    "url": "https://aclanthology.org/2026.findings-acl.1330.pdf",
+    "title": "A Survey on Evaluation of LLM-based Agents",
+    "date": "2026-07-07",
     "source": "web"
   },
   {
     "n": 12,
-    "id": "2609.09875",
-    "url": "https://arxiv.org/abs/2609.09875",
-    "title": "AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents",
-    "date": "2026-09-09",
+    "id": "2610.12183",
+    "url": "https://arxiv.org/abs/2610.12183",
+    "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
+    "date": "2026-10-08",
     "source": "arxiv"
   },
   {
     "n": 13,
-    "id": "2605.14126",
-    "url": "https://arxiv.org/abs/2605.14126",
-    "title": "Reinforcement Learning for Tool-Calling Agents in Fast Healthcare Interoperability Resources (FHIR)",
-    "date": "2026-05-13",
-    "source": "arxiv"
-  },
-  {
-    "n": 14,
-    "id": "2606.09371",
-    "url": "https://arxiv.org/abs/2606.09371",
-    "title": "Capability-Aligned Hierarchical Learning for Tool-Augmented LLMs",
-    "date": "2026-06-08",
-    "source": "arxiv"
-  },
-  {
-    "n": 15,
-    "id": "web-03",
-    "url": "https://github.com/confident-ai/deepeval",
-    "title": "DeepEval: The LLM Evaluation Framework",
-    "date": "n.d.",
-    "source": "web"
-  },
-  {
-    "n": 16,
-    "id": "web-04",
-    "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
-    "title": "Inspect: A Framework for Large Language Model Evaluations",
-    "date": "n.d.",
-    "source": "web"
-  },
-  {
-    "n": 17,
-    "id": "2609.35427",
-    "url": "https://arxiv.org/abs/2609.35427",
-    "title": "LLMs are General Asynchronous Agents",
-    "date": "2026-09-28",
-    "source": "arxiv"
-  },
-  {
-    "n": 18,
-    "id": "2610.07094",
-    "url": "https://arxiv.org/abs/2610.07094",
-    "title": "Evaluating Inference Compute for Generative AI: A Framework for Enterprise Workloads",
-    "date": "2026-10-05",
+    "id": "2609.23894",
+    "url": "https://arxiv.org/abs/2609.23894",
+    "title": "Connecting the Dots in Agentic AI Security: A Cross-Dimensional Threat Taxonomy, Evaluation Maturity, and Open Challenges",
+    "date": "2026-09-20",
     "source": "arxiv"
   }
 ]

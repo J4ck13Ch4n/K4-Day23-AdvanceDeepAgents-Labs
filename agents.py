@@ -109,6 +109,8 @@ Workflow (do all steps, in order):
    in the body that is not in the notes block of the very source the sentence cites ("not in the notes of the
    sources it cites"): delete that claim, or rewrite it with facts that block states, or cite the source whose
    block states it; never add the name to the notes yourself. Write each sentence from ONE source's block.
+   The validator also reports `looks off-topic` sources: remove that source and all sentences citing it (then
+   re-run the finalizer and, if the body is now short, add facts from the other sources' blocks).
 8. Ask the `citation-checker` subagent to spot-check 3-5 claims: give it exact quoted claims with their
    [n] and source URLs; it fetches each URL and answers SUPPORTED / PARTIAL / UNSUPPORTED / UNVERIFIABLE
    with one sentence of evidence. Fix or remove claims that are not SUPPORTED, then re-run finalizer

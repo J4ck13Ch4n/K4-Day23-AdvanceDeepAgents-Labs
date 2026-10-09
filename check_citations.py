@@ -194,6 +194,33 @@ def check_grounding(report_text, notes_text, sources=None):
     return sorted(problems)
 
 
+TOPIC_PATH = "/tmp/work/topic.txt"
+_STOP = {"survey", "about", "and", "for", "of", "the", "use", "with", "in", "on", "a", "an", "to"}
+
+
+def check_relevance(notes_text, sources, topic):
+    """Every source must match most of the topic's key terms in its own notes block (drops off-topic papers)."""
+    terms = []
+    for w in re.findall(r"[A-Za-z]+", topic or ""):
+        w = w.lower()
+        if w not in _STOP and w[:5] not in terms:
+            terms.append(w[:5])
+    if not terms:
+        return []
+    need = -(-2 * len(terms) // 3)  # ceil(2/3 * terms)
+    blocks = _note_blocks(notes_text)
+    problems = []
+    for src in sources:
+        text = blocks.get(str(src.get("url", "")).strip())
+        if text is None:
+            continue
+        hit = sum(1 for t in terms if t in text)
+        if hit < need:
+            problems.append(f"source [{src.get('n')}] looks off-topic (matches {hit} of {len(terms)} topic terms): "
+                            "remove it and every sentence that cites it")
+    return problems
+
+
 def _read_notes(notes_dir=NOTES_DIR):
     try:
         names = sorted(os.listdir(notes_dir))
@@ -221,6 +248,11 @@ def main(argv):
     notes = _read_notes() if len(argv) <= 1 else None  # grounding only in the sandbox run
     if notes:
         problems += check_grounding(report, notes, sources)
+        try:
+            with open(TOPIC_PATH, encoding="utf-8") as f:
+                problems += check_relevance(notes, sources, f.read())
+        except OSError:
+            pass
         words = len(_REF_HEADING.split(report)[0].split())
         if words < MIN_WORDS:
             problems.append(f"report body has {words} words (< {MIN_WORDS}): add more comparisons and facts "

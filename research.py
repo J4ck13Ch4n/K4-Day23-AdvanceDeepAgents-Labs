@@ -315,6 +315,7 @@ def _run_once(topic, model, model_name):
                 {
                     VALIDATOR_PATH: VALIDATOR_SOURCE.read_bytes(),
                     FINALIZER_PATH: FINALIZER_SOURCE.read_bytes(),
+                    f"{WORKDIR}/topic.txt": topic.encode("utf-8"),  # the validator drops off-topic sources
                 },
             )
             agent = build_lead_agent(backend, model)
