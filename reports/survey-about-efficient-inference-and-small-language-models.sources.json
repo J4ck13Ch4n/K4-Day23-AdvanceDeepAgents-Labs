@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "id": "2609.36222",
+    "url": "https://arxiv.org/abs/2609.36222",
+    "title": "BASE: Batch-Aware Selection of Experts Using Predicted Removal Error for Efficient MoE Decoding",
+    "date": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2610.02800",
+    "url": "https://arxiv.org/abs/2610.02800",
+    "title": "BitNest: Bit-Nested Speculative Decoding for Memory-Efficient LLM Inference Acceleration",
+    "date": "2026-10-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2405.20347",
+    "url": "https://huggingface.co/papers/2405.20347",
+    "title": "Small Language Models for Application Interactions: A Case Study",
+    "date": "2024-05-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2505.19529v2",
+    "url": "https://arxiv.org/html/2505.19529v2",
+    "title": "Small Language Models: Architectures, Techniques, Evaluation, Problems and Future Adaptation",
+    "date": "2025-05-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2610.07443",
+    "url": "https://arxiv.org/abs/2610.07443",
+    "title": "A Shape-Adaptive Architecture with Disaggregated Quantization for Efficient LLM Serving",
+    "date": "2026-10-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "10.1007/s43684-026-00130-7",
+    "url": "https://link.springer.com/article/10.1007/s43684-026-00130-7",
+    "title": "Strategies for computational efficiency in small language models",
+    "date": "2026-04-09",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2411.03350",
+    "url": "https://huggingface.co/papers/2411.03350",
+    "title": "A Comprehensive Survey of Small Language Models in the Era of Large Language Models",
+    "date": "2024-11-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2607.06340",
+    "url": "https://cloud.google.com/blog/topics/developers-practitioners/five-techniques-to-reach-the-efficient-frontier-of-llm-inference",
+    "title": "Five techniques to reach the efficient frontier of LLM inference",
+    "date": "2026-03-27",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2502.03460",
+    "url": "https://www.ijcai.org/proceedings/2026/0627.pdf",
+    "title": "Mapping the Efficiency Landscape of Small Language Models",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2610.00311",
+    "url": "https://arxiv.org/abs/2610.00311",
+    "title": "EdgeDAE: Acceleration of Diffusion Action Experts for Real-Time Physical AI with Tiny VLAs on Edge FPGA-GPU Systems",
+    "date": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2510.03847",
+    "url": "https://huggingface.co/papers/2510.03847",
+    "title": "Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade offs",
+    "date": "2025-10-04",
+    "source": "hf-search"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "n": 1,
+    "id": "2505.16120v2",
+    "url": "https://arxiv.org/html/2505.16120v2",
+    "title": "LLM-Powered AI Agent Systems and Their Applications",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2610.08077",
+    "url": "https://huggingface.co/papers/2610.08077",
+    "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+    "date": "2026-10-06",
+    "source": "hf-daily"
+  },
+  {
+    "n": 3,
+    "id": "2610.06100",
+    "url": "https://huggingface.co/papers/2610.06100",
+    "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
+    "date": "2026-10-05",
+    "source": "hf-daily"
+  },
+  {
+    "n": 4,
+    "id": "2610.12374",
+    "url": "https://huggingface.co/papers/2610.12374",
+    "title": "AgentGarten: Code Worlds for Evolving Agents",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 5,
+    "id": "2610.10845",
+    "url": "https://openai.github.io/openai-agents-python/tools/",
+    "title": "Tools - OpenAI Agents SDK",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2610.01364",
+    "url": "https://arxiv.org/abs/2610.01364",
+    "title": "LLM-Driven Multi-Agent Control for Skill-Based Smart Manufacturing",
+    "date": "2026-10-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2609.37025",
+    "url": "https://arxiv.org/abs/2609.37025",
+    "title": "AnyAct: Universal Action for Self-Evolving Agents",
+    "date": "2026-09-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2610.07335",
+    "url": "https://arxiv.org/abs/2610.07335",
+    "title": "Selective Critique for Cost-Aware LLM Agents in Long-Horizon Decision Making",
+    "date": "2026-10-05",
+    "source": "arxiv"
+  }
+]

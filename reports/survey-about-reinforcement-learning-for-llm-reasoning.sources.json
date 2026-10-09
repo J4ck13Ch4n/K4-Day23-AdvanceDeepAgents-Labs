@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "2504.20571",
+    "url": "https://arxiv.org/abs/2504.20571",
+    "title": "Reinforcement Learning for Reasoning in Large Language Models",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2509.08827",
+    "url": "https://arxiv.org/abs/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "3837057",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3837057?af=R",
+    "title": "Reinforcement Learning in the Era of Large Language Models",
+    "date": "2026-09-29",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2610.06100",
+    "url": "https://huggingface.co/papers/2610.06100",
+    "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
+    "date": "2026-10-05",
+    "source": "hf-daily"
+  },
+  {
+    "n": 5,
+    "id": "2506.14965",
+    "url": "https://huggingface.co/papers/2506.14965",
+    "title": "Revisiting Reinforcement Learning for LLM Reasoning from A Cross-Domain Perspective",
+    "date": "2025-06-17",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2504.20834",
+    "url": "https://huggingface.co/papers/2504.20834",
+    "title": "Reinforcement Learning for LLM Reasoning Under Memory Constraints",
+    "date": "2025-04-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2610.12061",
+    "url": "https://arxiv.org/abs/2610.12061",
+    "title": "Challenges in Reinforcement Learning Implementation for LLMs",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  }
+]

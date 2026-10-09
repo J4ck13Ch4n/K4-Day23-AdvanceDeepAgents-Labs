@@ -1,0 +1,34 @@
+[
+  {
+    "n": 1,
+    "id": "2606.12783",
+    "url": "https://arxiv.org/abs/2606.12783",
+    "title": "A Tutorial on World Models and Physical AI",
+    "date": "2026-06-11",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "N/A",
+    "url": "https://arxiv.org/pdf/2410.00258",
+    "title": "A Research Roadmap Toward Scalable Aligned AI Agents",
+    "date": "n.d.",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "N/A",
+    "url": "https://www.deepmind.com/blog/article/world-models",
+    "title": "Foundational Theories and Frameworks behind World Models",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2610.06100",
+    "url": "https://huggingface.co/papers/2610.06100",
+    "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
+    "date": "2026-10-05",
+    "source": "hf-daily"
+  }
+]
