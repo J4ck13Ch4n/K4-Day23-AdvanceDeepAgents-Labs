@@ -207,7 +207,7 @@ def check_relevance(notes_text, sources, topic):
             terms.append(w[:5])
     if not terms:
         return []
-    need = -(-2 * len(terms) // 3)  # ceil(2/3 * terms)
+    need = len(terms) if len(terms) <= 3 else -(-4 * len(terms) // 5)  # all terms (<= 3), else ceil(80%)
     blocks = _note_blocks(notes_text)
     problems = []
     for src in sources:
